@@ -6,7 +6,20 @@ h1 {
     font-family: "Bruno Ace SC", serif;
 }
 
+.navbar ul{
+    list-style-type: none;
+    background-color: steelblue;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color: purple;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
 
+}
 
 
 
