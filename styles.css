@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 body{
+    font-family: "Bruno Ace SC", serif;
     background-color: #AAB99A;
 }
 h1 {
@@ -11,6 +12,7 @@ h1 {
     background-color: steelblue;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
 }
 .navbar a{
     color: purple;
@@ -18,10 +20,18 @@ h1 {
     padding: 15px;
     display: block;
     text-align: center;
-
 }
+.navbar a:hover{
+    background-color:navy
+}
+
+
 #WelcometomyWebsite {
     text-align: center;
+}
+
+.navbar li{
+    float: left;
 }
 
 
