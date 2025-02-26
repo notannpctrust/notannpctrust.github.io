@@ -3,7 +3,7 @@ body{
     font-family: "Bruno Ace SC", serif;
     background-color: #AAB99A;
 }
-h1 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Bruno Ace SC", serif;
 }
 
@@ -33,5 +33,20 @@ h1 {
 .navbar li{
     float: left;
 }
+.text-center {
+    text-align: center;
+}
+.text-24px{
+    font-size: 24px;
+}
+
+.navbar:active {
+    box-shadow: 2px 2px 5px #00a171;
+  }
 
 
+  a:visited {
+    color: rgb(227, 62, 25);
+
+  }
+  
