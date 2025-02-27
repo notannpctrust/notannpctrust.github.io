@@ -19,11 +19,57 @@
     </nav>
 
     <main>
-        <h3 style="font-size:44px;text-align: center;">This is the Contacts page</h3>
+        <h3 style="font-size:44px;text-align: center;">This is where you will contact me</h3>
         <li><a href="https://brooklynsteamcenter.org/">Head over to the steam Center Webpage</a> </li>
     
     </main>
+<form action="https://form-to-email.steam-center.workers.dev/" method="post">
+
+    <input name="send-to" value="cbrown2@brooklynsteamcenter.org" hidden>
+
+    
+    <label>Your Name</label>
+    <br>
+
+    <input type=":text" required name="name">
+    <br>
+
+    <label>Email</label>
+    <br>
+
+    <input type="email" required name="email">
+    <br>
+
+    <label>Phone</label>
+    <br>
+
+    <input type="tel" required name="phone">
+    <br>
+
+    <p>Preferred Contact: </p>
+    <input type="radio" name="contact_method" value="email"> 
+    <label>email</label> <br>
+
+    <input type="radio" name="contact_method" value="phone"> 
+    <label>Phone</label> <br>
+
+    <label>Comment/Questions</label>
+    <br>
+    <textarea name="comments" required></textarea>
+    <br>
+    <input type="submit">
+    <input type="reset">
+    <br>
+
+
+    <label>Rate my Website?</label>
+    <br>
+    <textarea required></textarea>
+    <br>
+    <input type="submit">
+    <br>   
+    
+    <p>Reach me at cbrown2@brooklynsteamcenter.org</p>
+</form>
 </body>
-
-
 </html>
