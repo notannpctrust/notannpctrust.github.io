@@ -55,3 +55,7 @@ input{
     background-color: #48bca3
 }
   
+.phone{
+    display: flex;
+    align-items: center;
+}

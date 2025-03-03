@@ -40,8 +40,10 @@
     <input type="email" required name="email">
     <br>
 
-    <label>Phone</label>
-    <br>
+    <label class="phone">
+        Phone<i data-lucide="phone"></i>
+    </label>
+   
 
     <input type="tel" required name="phone">
     <br>
@@ -62,7 +64,7 @@
     <br>
 
 
-    <label>Rate my Website?</label>
+    <label>Rate my Website?<i data-lucide="hand-helping"></i></label>
     <br>
     <textarea required></textarea>
     <br>
@@ -71,5 +73,17 @@
     
     <p>Reach me at cbrown2@brooklynsteamcenter.org</p>
 </form>
+
+<a href="mailto:cbrown2@brooklynsteamcenter.org" style="color:blue">
+    <i data-lucide="mails"></i>
+</a>
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+    lucide.createIcons()
+</script>
+
 </body>
 </html>
