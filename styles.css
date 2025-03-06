@@ -36,9 +36,9 @@ h1,h2,h3,h4,h5,h6 {
 .text-center {
     text-align: center;
 }
-.text-24px{
-    font-size: 24px;
-}
+.text-15px{
+    font-size: 23px;
+}     
 
 .navbar:active {
     box-shadow: 2px 2px 5px #00a171;
@@ -58,4 +58,8 @@ input{
 .phone{
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .text-15px{font-size: 15px;}
 }
